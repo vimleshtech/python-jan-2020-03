@@ -1,0 +1,50 @@
+DataScience: is very vast concept which focus to datastructure, data model, data clean and variable different cocept 
+	- data science is init step to understand the ml,ai and other advance topics
+
+There are following inbuilt modules in python which commonaly used in datascience:
+
+- numpy		: is known as numerical python to manage ndimenssion data 
+- pandas 	: is module to mange dataframe
+		: pandas provide alot of functions to import,export, and manage dataframe
+- statisitcs
+- matplotlib 
+- seaborn 
+
+How to install above module:
+Step 1:
+	- open cmd/terminal and check eiher pip is install or not 
+	- if pip is not install need to install pip or annoconda 
+	
+	cd python_path/scripts
+	cd C:\Users\Tech Vision\AppData\Local\Programs\Python\Python37\Scripts
+
+Step 2:
+	pip install numpy 
+		
+
+Step 3:
+	validate the numpy installation 
+	--open the python editior 
+
+	import numpy 
+
+Numpy: works on array 
+
+
+
+Install Pnadas:
+	pip install pandas
+
+There are following inbuilt methods:
+	read_csv()		: read data from csv file(comma seperate version)
+	to_csv()		: save to csv 
+	columns			: show column names
+	index			: show row index number or name
+	head()			: show given number of rows from top
+	tail()			: show given number of rows from buttom
+	info()			: show dataframe column, and it's type
+	describe()		: show stats such as count, max, min, sum, std, 25%, 50% .
+	groupby('_').size	: show the particular head filter.
+      		    .count
+	
+	
